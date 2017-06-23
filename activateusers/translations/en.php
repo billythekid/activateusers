@@ -1,7 +1,6 @@
 <?php
 /**
  * Activate Users plugin for Craft CMS
- *
  * Activate Users Translation
  *
  * @author    Billy Fagan
@@ -12,5 +11,8 @@
  */
 
 return array(
-    'Translate me' => 'To this',
+    'Activate Users'                                                                         => 'Activate Users',
+    'Plugin that adds "Activate account" permissions so that non-admins can activate users.' => 'Plugin that adds "Activate account" permissions so that non-admins can activate users.',
+    'Activate account'                                                                       => 'Activate account',
+    'Activate Accounts'                                                                      => 'Activate Accounts',
 );
