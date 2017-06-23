@@ -1,6 +1,6 @@
 {
 	"name": "billythekid/activateusers",
-	"description": "Plugin that adds Activate",
+	"description": "Plugin that adds 'Activate account' permissions so that non-admins can activate users.",
 	"type": "craft-plugin",
 	"authors": [
 		{

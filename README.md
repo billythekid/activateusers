@@ -2,8 +2,6 @@
 
 Plugin that adds "Activate account" permissions so that non-admins can activate users.
 
-![Screenshot](resources/screenshots/plugin_logo.png)
-
 ## Installation
 
 To install Activate Users, follow these steps:
