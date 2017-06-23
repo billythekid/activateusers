@@ -1,6 +1,6 @@
 # Activate Users plugin for Craft CMS
 
-Plugin that adds Activate
+Plugin that adds "Activate account" permissions so that non-admins can activate users.
 
 ![Screenshot](resources/screenshots/plugin_logo.png)
 
