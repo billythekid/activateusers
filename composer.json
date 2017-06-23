@@ -1,14 +1,15 @@
 {
-	"name": "billythekid/activateusers",
-	"description": "Plugin that adds 'Activate account' permissions so that non-admins can activate users.",
-	"type": "craft-plugin",
-	"authors": [
-		{
-			"name": "Billy Fagan",
-			"homepage": "https://billyfagan.co.uk"
-		}
-	],
-	"require": {
-		"composer/installers": "~1.0"
-	}
+  "name": "billythekid/activateusers",
+  "description": "Plugin that adds 'Activate account' permissions so that non-admins can activate users.",
+  "type": "craft-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Billy Fagan",
+      "homepage": "https://billyfagan.co.uk"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0"
+  }
 }
