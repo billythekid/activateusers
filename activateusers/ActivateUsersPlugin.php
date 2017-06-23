@@ -15,7 +15,7 @@ namespace Craft;
 class ActivateUsersPlugin extends BasePlugin
 {
     /**
-     * @return mixed
+     * @return void
      */
     public function init()
     {
@@ -23,7 +23,7 @@ class ActivateUsersPlugin extends BasePlugin
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getName()
     {
@@ -31,11 +31,11 @@ class ActivateUsersPlugin extends BasePlugin
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getDescription()
     {
-        return Craft::t('Plugin that adds Activate');
+        return Craft::t('Plugin that adds "Activate account" permissions so that non-admins can activate users.');
     }
 
     /**
@@ -95,29 +95,10 @@ class ActivateUsersPlugin extends BasePlugin
     }
 
     /**
+     * Adds the new user permission to allow a user to activate users
+     *
+     * @return array
      */
-    public function onBeforeInstall()
-    {
-    }
-
-    /**
-     */
-    public function onAfterInstall()
-    {
-    }
-
-    /**
-     */
-    public function onBeforeUninstall()
-    {
-    }
-
-    /**
-     */
-    public function onAfterUninstall()
-    {
-    }
-
     public function registerUserPermissions()
     {
         return array(
@@ -125,8 +106,11 @@ class ActivateUsersPlugin extends BasePlugin
         );
     }
 
-    /*
+    /**
      * Adds the option to activate an account if the current user is allowed to do that.
+     *
+     * @param UserModel $user
+     * @return array
      */
     public function addUserAdministrationOptions(UserModel $user)
     {
@@ -137,13 +121,15 @@ class ActivateUsersPlugin extends BasePlugin
             return array(
                 array(
                     'label'  => Craft::t('Activate account'),
-                    'action' => 'activateusers/account/activateAccount',
+                    'action' => 'activateUsers/account/activateAccount',
                 ),
             );
         }
     }
 
     /**
+     * Checks if the current user is allowed to activate a user
+     *
      * @param UserModel $user
      * @param UserModel $currentUser
      * @return bool

@@ -19,7 +19,7 @@ class ActivateUsers_AccountController extends BaseController
     /**
      * Activates a user (because normally you need to be top-level admin)
      */
-    public function actionActivateUser()
+    public function actionActivateAccount()
     {
         $user = craft()->users->getUserById(craft()->request->getPost('userId'));
         craft()->users->activateUser($user);
