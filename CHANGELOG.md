@@ -1,5 +1,10 @@
 # Activate Users Changelog
 
+## 1.0.1 -- 2017.06.23
+
+* Added German translation (thanks carlcs)
+* Removed return type hinting for older PHP compatibility
+
 ## 1.0.0 -- 2017.06.23
 
 * Initial release

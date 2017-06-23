@@ -1,10 +1,20 @@
 [
+
     {
         "version": "1.0.0",
-        "downloadUrl": "https://github.com/billythekid/activateusers/archive/master.zip",
+        "downloadUrl": "https://github.com/billythekid/activateusers/archive/1.0.0.zip",
         "date": "2017-06-23T14:09:01.126Z",
         "notes": [
             "[Added] Initial release"
+        ]
+    },
+    {
+        "version": "1.0.1",
+        "downloadUrl": "https://github.com/billythekid/activateusers/archive/master.zip",
+        "date": "2017-06-23T21:24:00.000Z",
+        "notes": [
+            "[Improved] Added German translation (thanks carlcs)",
+            "[Improved] Removed return type hinting for older PHP version compatibility"
         ]
     }
 ]
