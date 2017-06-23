@@ -134,7 +134,7 @@ class ActivateUsersPlugin extends BasePlugin
      * @param UserModel $currentUser
      * @return bool
      */
-    private function currentUserCanActivateUsers(UserModel $user, $currentUser): bool
+    private function currentUserCanActivateUsers(UserModel $user, $currentUser)
     {
         return !craft()->userSession->isAdmin() &&
             $currentUser->can('activateAccounts') &&
