@@ -16,20 +16,24 @@ Activate Users works on Craft 2.4.x and Craft 2.5.x.
 
 ## Activate Users Overview
 
--Insert text here-
+This plugin adds a user permission to allow users to activate users. This is normally done by admin accounts only but sometimes 
+you want a "semi-admin" account without full admin privileges to be able to do this. When a user has this permission set and is
+viewing another user's dashboard page, the option to activate that user will appear in their "cog" menu. 
 
 ## Configuring Activate Users
 
--Insert text here-
+This plugin has no configuration options. Just install it and give the users (or user groups) that you want to be able to activate
+users that permission.
 
 ## Using Activate Users
 
--Insert text here-
+Non-admin accounts with the permission should visit an unverified/not yet activated account in the dashboard. Here they can choose
+to activate the user by way of the "cog" menu (at the top right in a full/desktop view)
 
 ## Activate Users Roadmap
 
 Some things to do, and ideas for potential features:
 
-* Release it
+* Other admin-only permissions maybe?
 
 Brought to you by [Billy Fagan](https://billyfagan.co.uk)
