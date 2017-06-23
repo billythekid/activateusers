@@ -1,0 +1,14 @@
+{
+	"name": "billythekid/activateusers",
+	"description": "Plugin that adds Activate",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Billy Fagan",
+			"homepage": "https://billyfagan.co.uk"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
