@@ -1,5 +1,9 @@
 # Activate Users Changelog
 
+## 1.0.2 -- 2017.07.20
+
+* Added German translation (thanks tdutrion)
+
 ## 1.0.1 -- 2017.06.23
 
 * Added German translation (thanks carlcs)
