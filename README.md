@@ -32,8 +32,4 @@ to activate the user by way of the "cog" menu (at the top right in a full/deskto
 
 ## Activate Users Roadmap
 
-Some things to do, and ideas for potential features:
-
-* Other admin-only permissions maybe?
-
-Brought to you by [Billy Fagan](https://billyfagan.co.uk)
+There are no plans to add more features to this plugin.
